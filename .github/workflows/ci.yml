@@ -25,6 +25,8 @@ jobs:
   windows-exe:
     needs: test
     runs-on: windows-latest
+    permissions:
+      contents: write   # kiadás létrehozásához (v* címkénél)
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
