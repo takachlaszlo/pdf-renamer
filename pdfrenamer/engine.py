@@ -234,7 +234,7 @@ def undo(log: Path) -> tuple[int, list[str]]:
 # --- beállítások -----------------------------------------------------------------
 
 _SETTINGS = APP_DIR / "settings.json"
-_DEFAULTS = {"folder": str(DEFAULT_FOLDER), "recursive": True, "auto_scan": True, "force_all": False,
+_DEFAULTS = {"folder": str(DEFAULT_FOLDER), "recursive": True, "auto_scan": False, "force_all": False,
              "use_llm": False, "mailto": ""}
 
 

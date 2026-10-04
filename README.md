@@ -14,13 +14,13 @@ Alapelvek: **előnézet először** (átnevezés csak jóváhagyás után), mind
 ## Windows – grafikus program (.exe)
 
 1. A kiadásokból (Releases) töltsd le a `PdfRenamer.exe`-t, vagy építsd meg magad: `build_exe.bat` → `dist\PdfRenamer.exe`. Python nem kell hozzá.
-2. Indításkor **automatikusan átnézi a munkamappát** (alapból `C:\Users\<te>`, almappákkal együtt). A mappa a **Tallózás…** gombbal bármikor cserélhető, a **Munkamappa** gomb visszaáll a sajátodra. Az utoljára használt mappát megjegyzi.
+2. Indításkor **nem fut le semmi magától**: válaszd ki a mappát (alapból a saját mappád, `C:\Users\<te>`), és kattints az **Átnézés** gombra. A **Tallózás…** gomb kijelölés után azonnal átnézi a mappát, a **Munkamappa** gomb visszaáll a sajátodra. Az utoljára használt mappát megjegyzi.
 3. A táblázatban jelöld ki, amit át akarsz nevezni (kattintás a ☐/☑ jelre vagy szóköz). Dupla kattintás a jelenlegi néven megnyitja a PDF-et, az új néven szerkeszthető a javaslat.
 4. **Kijelöltek átnevezése**. **Utolsó átnevezés visszavonása** visszaállítja az előző kört.
 
 A teljes profil bejárásakor kihagyja: `AppData`, rejtett/rendszer/csatolt mappák, `.`-tal kezdődő mappák, `node_modules`, `venv`, `site-packages`, Windows- és Program Files-mappák. A felhőben lévő (OneDrive „csak online”) fájlokat nem tölti le, jelzi.
 
-Az indításkori automatikus átnézés a „Induláskor automatikus átnézés” jelölőnégyzettel kapcsolható ki.
+Ha szeretnéd, hogy induláskor magától átnézze a mappát, jelöld be az „Induláskor automatikus átnézés” négyzetet (alapból ki van kapcsolva).
 
 ## Linux (és macOS, Windows) – parancssor, GitHubról telepítve
 

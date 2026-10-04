@@ -96,7 +96,7 @@ class App(tk.Tk):
         self.tree.bind("<Double-1>", self._double)
         self.tree.bind("<space>", self._space)
 
-        self.status = tk.StringVar(value="Készen áll.")
+        self.status = tk.StringVar(value="Készen áll – válassz mappát, majd kattints az Átnézés gombra.")
         self.progress = ttk.Progressbar(self, mode="determinate")
         self.progress.pack(fill="x", padx=8)
         ttk.Label(self, textvariable=self.status, anchor="w").pack(fill="x", padx=8, pady=(2, 6))
