@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pdf-renamer"
-version = "1.0.0"
+version = "1.1.0"
 description = "PDF-ek átnevezése: cikkek DOI/metaadat alapján, számlák és egyéb dokumentumok tartalom (és dátum) alapján"
 readme = "README.md"
 requires-python = ">=3.10"
